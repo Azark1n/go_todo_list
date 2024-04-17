@@ -35,6 +35,10 @@ docker run -d -p 7540:7540 --name go_todo_list -e TODO_PASSWORD=mysecretpassword
 
 Replace your_secure_password with a secure password of your choice. This password will be used for the application's basic authentication.
 
+### Accessing the Application
+Once the container is running, open your web browser and navigate to:
+http://localhost:7540
+
 ## Screenshots
 Below are some screenshots of the Todo List application in action:
 ![img.png](screenshots/img_1.png)
